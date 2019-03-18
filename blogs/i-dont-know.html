@@ -1,0 +1,193 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Pontano+Sans" rel="stylesheet">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+		<style>
+#bio-page-header{
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h3, h2{
+  font-family: 'Caveat', cursive;
+}
+.navbar {
+  background-color: rgba(30,0,30,0.3);
+  overflow: hidden;
+  position: fixed;
+  bottom: -1;
+  width: 100%;
+  padding-top:3px;
+  margin-top: 3px;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  /* background-color: purple; */
+  float: right;
+  color: white;
+}
+/* The side navigation menu */
+.sidebar {
+  font-family: 'Caveat', cursive;
+  font-size: larger;
+  margin: 0;
+  /* margin-right: 10px; */
+  width: 200px;
+  background-color: white;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+/* Active/current link */
+.sidebar a.active {
+  background-color: pink;
+  color: white;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: purple;
+  color: white;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+.content {
+  font-family: 'Pontano Sans', sans-serif;
+  position: relative;
+  color: rgba(60,0,60,0.9);
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+  margin-bottom: 3%;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+
+  div.content{
+  margin-left: 30px;
+  margin-right: 10px;
+  padding-right: 25%;
+  }
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+
+  #bio-page-header{
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+  .content{
+    width: 100%;
+    margin-left: none;
+    padding-left: none;
+    padding-right: none;
+    text-align: center;
+  }
+}
+.header-image{
+	height: 100%;
+	margin-right: 5%;
+	padding-right: 10%;
+	position: relative;
+}
+#header{
+	font-family: 'Caveat', cursive;
+	height: 25%;
+	display: flex;
+	background-color: purple;
+	color: white;
+}
+.title{
+	position: relative;
+	font-size: 2em;
+	margin-right: 30%;
+}
+
+@keyframes hi{
+    100% { transform: translate(50px, 100px) };
+}
+
+@keyframes name{
+    100% { transform: translate(50px, 150px) };
+}
+		</style>
+	</head>
+
+	<body>
+		<div id="header">
+			<img class="header-image" src="https://avatars0.githubusercontent.com/u/32307798?s=460&v=4"/>
+			<span class="title">Zoe Alex</span>
+			<br>
+		</div>
+		 <!-- The sidebar -->
+<div class="sidebar">
+  <a class="active" href="index.html">Bio</a>
+
+  <a href="../cv.html">CV</a>
+  <a href="../blog.html">Oh For Blog's Sake</a>
+  <a href="../speaking-events.html">What Am I Talking About?</a>
+</div>
+
+<!-- Page content -->
+<div class="content">
+	<br>
+	<h1>Blogs</h1>
+			<br>
+		<h2>I Don't Know What I'm Doing</h2>
+<br>
+Some people expressed an interest in what I talked about at this year's NI Developer Conference, so I'm sharing my original writings which I based my talk on. It's not great but I was focusing on getting my thoughts out so I could talk about it.
+<hr>
+<br>
+This is not something brand new, or a concept anyone is unfamiliar with. It's just a feeling I have a lot, and by "a lot" I mean every day. I wanted to focus on it and talk about it today because it's something, I’m sure, literally every single person has thought at least once. At some point, whether it was 40, 20, or 2 years ago, you probably didn't know what you were doing. I actually think most people who seem to know what they're doing probably regularly think "I don't know what I'm doing". And there’s absolutely nothing wrong with admitting it.
+<br><br>
+I'm going to share my journey, because I’m in the very early stages as a software engineering student, and I don't know what I'm doing. But I submitted a talk and it was accepted. So since NIDC are letting me stand here and talk at you, I'm going to talk about how I don't know what I'm doing while acting like I do know what I'm doing.
+<br>
+<br>
+I’ll go back a few years and confide in everyone about a horrible part of my life - a part when I genuinely did not know what I was doing - academically, personally or professionally. I struggled a lot with my mental health during secondary school and by the time I got to A-Levels I had given up on any hope of a real 'career' that I would live for and love. This depression developed until I landed at rock bottom for the better part of 2 years.  I left myself in a position to do nothing, other than work in a call centre. Which is where I spent the next 3 years (except for a brief time when I worked in a door to door pyramid scheme but I won't get into that painful part just now).
+<br><br>
+I fell pregnant with my daughter when I was 19. When you're a young, unmarried woman people are very quick to assume that you're going to drink cold tea, iron things and watch Jeremy Kyle all day. I felt how I was treated by doctors, hospital staff and even grocery store employees made me feel like I had already failed. I was under so much pressure from family to be a “mum” before I was anything else. When you are a parent there’s a preconception that that’s what you will do, for the rest of your life.
+<br>
+<br>Struggling with severe postpartum depression, still coming to grips with being a “mum”, I tried to go back to work at my minimum wage call centre job. While I *absolutely love* being berated all day every day for crap money, I knew if I didn't do something now, then I never would, and I would hate myself even more. I had to at least TRY, for my daughter and for myself. I applied to a foundation degree in software engineering, only because it was the only thing that could lead to a career that I also had the qualifications for (thank you, 18 year old depression!). Plus I had heard stories about how well paid the jobs are. It was definitely the right path.
+<br><br>
+When I started my first day of Java, I had no expectations. I hadn't really seen a line of code before and I just barely had a basic understanding of how computers work. Anxiety hit, I panicked and cried (as I do with most things I struggle with). I regretted my decision to go down this path - I really should have stayed in my comfortable job. But, I'd already quit that, and I was here, and pretty sure I had to pay back the money for the first semester regardless - I may as well give it my best. And then I remembered a thing that had been drilled into my head during my time at the pyramid scheme - fake it ‘til you make it. It obviously didn’t work for me then or else I would have a lot more money, but it might work now. My teachers and peers were sick of my questions, and my lack of understanding was embarrassing. I dove head first into the tech community to try to learn as much as I could (and get free pizza). 90% of me was sure I wasn’t intelligent enough to fully understand anything, but all I had to do was pretend to know so I could get a good job when my degree was finished. If I could get that far then I would have done what I had set out to - I can provide for my daughter and have a job where I didn't have to get shouted at by angry people on the phone all day.
+<br><br>
+As I met more people, went along to more meetups, I found people spoke to me for some reason. I felt, and I actually still feel this way every day, like I didn't belong anywhere because I didn't know what I was doing. It's so easy to forget that everyone has started out at the same stage and that it doesn't make new anyone any less valued by the tech community.
+<br><br>
+So I just went along with it, pretended to understand that I knew what I was doing and tried my best. For school I kept my head down, skipped lunches, worked late into the night making sure I could "pretend" to know enough to pass the modules. I continued with meetups and kept socialising, nodding along to what people said, enjoying being around people who I wanted to be like. It's worked pretty well so far since I managed to get here.
+<br><br>
+What I’ve learnt in my short time here is that no-one is going to start anything new and understand everything that's happening. No-one knows what they're doing all the time, because that’s just ridiculous. Getting up, trying again, and learning from mistakes is what makes someone learn. Life is a learning curve, but everyone generally goes through the 4 stages of competence (referenced below).<br> <img src="https://gingerzoealex.files.wordpress.com/2018/06/competence.png?w=378&h=254" /> <br>It’s normal to be self-conscious about not knowing something, but there’s a very good chance the person beside you doesn’t know either. And if they do know, it’s only because they were once at the exact same place you are.Or else they’re just pretending they know.
+<br>
+<h6>11th June 2018</h6>
+	<br>
+</div>
+		<div class="navbar">
+		<a href="https://github.com/gingerzoealex/gingerzoealex.dev" class="active">hosted on github pages</a>
+		</div>
+	</body>
+</html>
