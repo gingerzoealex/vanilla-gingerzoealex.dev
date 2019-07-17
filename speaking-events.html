@@ -2,144 +2,25 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="https://fonts.googleapis.com/css?family=Pontano+Sans" rel="stylesheet">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
-		<style>
-/* Place the navbar at the bottom of the page, and make it stick */
-h3, h2{
-  font-family: 'Caveat', cursive;
-}
-.navbar {
-  background-color: rgba(30,0,30,0.3);
-  overflow: hidden;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  padding-top:3px;
-  margin-top: 3px;
-}
-
-/* Add a color to the active/current link */
-.navbar a.active {
-  /* background-color: purple; */
-  float: right;
-  color: white;
-}
-
-/* The side navigation menu */
-.sidebar {
-  font-family: 'Caveat', cursive;
-  font-size: larger;
-  margin: 0;
-  margin-right: 10px;
-  width: 200px;
-  background-color: white;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
-}
-
-/* Sidebar links */
-.sidebar a {
-  display: block;
-  color: black;
-  padding: 16px;
-  text-decoration: none;
-}
-/* Active/current link */
-.sidebar a.active {
-  background-color: pink;
-  color: white;
-}
-
-/* Links on mouse-over */
-.sidebar a:hover:not(.active) {
-  background-color: purple;
-  color: white;
-}
-
-/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
-div.content {
-  font-family: 'Pontano Sans', sans-serif;
-  margin-left: 200px;
-  padding: 1px 16px;
-  height: 1000px;
-}
-
-/* On screens that are less than 700px wide, make the sidebar into a topbar */
-@media screen and (max-width: 700px) {
-  .sidebar {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-  .sidebar a {float: left;}
-
-  div.content{
-  margin-left: 10px;
-  margin-right: 10px;
-	/* border: 10px solid blue; */
-	/* border-radius: none; */
-	/* padding-left: 0%; */
-	/* padding-right: 0%; */
-	/* padding-top: 0%; */
-	/* padding-bottom: 0%; */
-	/* margin-left: 0%; */
-	/* margin-right: 0%; */
-
-  }
-}
-
-/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
-@media screen and (max-width: 400px) {
-  .sidebar a {
-    text-align: center;
-    float: none;
-  }
-  .content{
-	margin-left: 0%;
-	margin-bottom: 5%;
-
-  }
-}
-			.header-image{
-				height: 100%;
-				margin-right: 5%;
-				padding-right: 10%;
-				position: relative;
-			}
-			#header{
-				font-family: 'Caveat', cursive;
-				height: 25%;
-				display: flex;
-				background-color: purple;
-				color: white;
-			}
-			.title{
-				position: relative;
-				font-size: 2em;
-				margin-right: 30%;
-			}
-		</style>
 	</head>
 
-	<body>
-		<div id="header">
-			<img class="header-image" src="https://avatars0.githubusercontent.com/u/32307798?s=460&v=4"/>
-			<span class="title">Zoe Alex</span>
-			<br>
-		</div>
-		 <!-- The sidebar -->
-<div class="sidebar">
-  <a href="index.html">Bio</a>
-  <a href="cv.html">CV</a>
-  <a href="blog.html">Oh For Blog's Sake</a>
-  <a  class="active" href="speaking-events.html">What Am I Talking About?</a>
-</div>
-
-<!-- Page content -->
-<div class="content">
-			<h2>Speaking Events</h2>
-			<br>
+	<body style="margin-left: 10%;">
+    <br>
+    <h2>gingerzoealex.dev</h2>
+    <hr>
+    <br>
+    <a class="active" href="index.html">Bio</a>
+    <br>
+    <a href="cv.html">CV</a>
+    <br>
+    <a href="blog.html">Oh For Blog's Sake</a>
+    <br>
+    <a href="speaking-events.html">What Am I Talking About?</a>
+    <hr>
+    <br>
+			<h3>Speaking Events</h3>
 			<h3>Technical Talks</h3>
 			<!-- <a href="https://womentechmakersbelfast.com/speakers.html">Women Tech Makers 2019</a> -->
 			<h4>What Even is a Dataset?</h4>
@@ -154,10 +35,6 @@ To save myself from embarrassment I dove head first into the land of curly brack
 <br>
 I’m going to share how I have managed an attempt at kick starting my career despite not knowing wtf I’m doing.</p>
 			<br>
-</div>
-		<div class="navbar">
-			<a href=""https://github.com/gingerzoealex/gingerzoealex.dev class="active">hosted on github pages</a>
-		</div>
 	</body>
 </html>
 
