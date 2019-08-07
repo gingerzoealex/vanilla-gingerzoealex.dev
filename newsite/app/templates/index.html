@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% for slide in slides %}
+    <div><p>{{ slide.title.title }} says: <b>{{ slide.body }}</b></p></div>
+    {% endfor %}
+{% endblock %}
