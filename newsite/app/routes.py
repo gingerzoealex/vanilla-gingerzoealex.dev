@@ -4,7 +4,7 @@ from flask import render_template
 @app.route('/')
 @app.route('/index')
 def index():
-    title = {'string': 'And for my next trick I will make this CSV into a gra-<”ParserError: Expected 1 fields in line 34, saw 2”>'}
+    title = {'string': 'Title hello'}
     slides = [
     {
         'title': {'title': 'Slide 1'},

@@ -1,0 +1,7 @@
+{% block content %}
+    {% for slide in slides %}
+    <div><p>{{ slide.title.title }} <br><b>{{ slide.body }}</b></p></div>
+    <hr>
+    <br>
+    {% endfor %}
+{% endblock %}
