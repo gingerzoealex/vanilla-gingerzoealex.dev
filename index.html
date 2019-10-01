@@ -5,12 +5,14 @@
     <link href="https://fonts.googleapis.com/css?family=Molengo&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
     <title>gingerzoealex</title>
+
 	</head>
 
 	<body>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
     <div id="header">
       <br>
-      <img src="logo.png" id="site-logo"/>
+      <img src="logo.png" id="site-logo" />
       <hr>
     </div>
     <div id="content">
@@ -42,7 +44,9 @@
         <br>
         Zoe tries to be open about certain aspects of her life, like work, parenthood, & mental health triumphs. Her thoughts can be found on her blog page, although some posts may be quite personal.
       </p>
-      <img src="selfie1.png" height="20%">
+      <div data-tilt>
+        <img id="zoe" src="selfie1.png" height="20%" style="will-change: transform; transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);">
+      </div>
     </div>
 	</body>
 </html>
