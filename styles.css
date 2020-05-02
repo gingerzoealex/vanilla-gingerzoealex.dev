@@ -1,27 +1,52 @@
 #site-logo{
-  width: 35%;
+  font-size: 3em;
+  color: rgb(74, 25, 121);
+  font-family: 'Cabin Sketch', cursive;
 }
-body{
+section, #menu, header{
+  text-align: center;
+  align-items: center;
   margin-left: 10%; 
   margin-right: 10%;
 }
-
-#menu{
-  font-family: 'Ma Shan Zheng', cursive;
-  font-size: 1.5em;
-}
-p, h1, h3, h4{
-  font-family: 'Molengo', sans-serif;
+section{
+  min-height: 70vh;
 }
 a{
-  color: #d1809f;
+  font-family: 'Cabin Sketch', cursive;
+  color: #332066;
 }
 a:visited{
-  color: #d1809f;
+  color: #332066;
 }
-#content{
+#menu{
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 1.5em;
+}
+p, h1, h2, h3, h4, h5{
+  text-align: center;
+  font-family: 'Inter', sans-serif;
 }
 body{
-  background-color: rgba(10,10,10,0.1);
-  padding-bottom: 5%;
+  background-color: #cfcfcf7c;
+  margin: 0;
+}
+.image{
+  height: 20rem;
+}
+.footer{
+  font-size: small;
+  padding-top: 10px;
+  align-content: center;
+  text-align: center;
+  background-color: rgb(105, 89, 121);
+  color: white;
+  bottom: 0;
+  position: sticky;
+  font-family: 'Cabin Sketch', cursive;
+  height: 5em;
+  width: 100%;
+}
+.footer > a{
+  color: white;
 }
