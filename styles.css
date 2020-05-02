@@ -3,7 +3,7 @@
   color: rgb(74, 25, 121);
   font-family: 'Cabin Sketch', cursive;
 }
-.section, #menu, header{
+.section, #menu, #header{
   text-align: center;
   align-items: center;
   margin-left: 10%; 
